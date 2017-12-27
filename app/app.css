@@ -1,0 +1,79 @@
+/* app css stylesheet */
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    margin:0;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom:0;
+    font-size: 40px;
+}
+
+.menu {
+    font-family: 'Amatic SC', cursive;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0.6em 0.5em;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+input[type=text] {
+    padding: 2px 5px;
+    text-align: right;
+    border: 2px solid #000;
+    width: 100px;
+}
+
+.code {
+    padding: 2px 5px;
+    background: #efefef;
+    text-align: right;
+    font-family: 'Inconsolata', monospace;
+}
+
+.red {
+    color: red;
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li a {
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu > li + li:before {
+    font-size: 50px;
+    content: "|";
+    padding: 0 0.3em;
+}
